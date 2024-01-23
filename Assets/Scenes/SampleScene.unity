@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 20262509}
   - component: {fileID: 20262508}
   - component: {fileID: 20262507}
+  - component: {fileID: 20262511}
   m_Layer: 0
   m_Name: Roof
   m_TagString: Untagged
@@ -229,6 +230,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!114 &20262511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20262506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43503131f26246d43869711cc0beaf75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action: {fileID: 7642047432000806908, guid: a68e1fb762d88734d9b6d576a6f03c6b, type: 3}
 --- !u!1 &170344113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,6 +1380,7 @@ GameObject:
   - component: {fileID: 1211903668}
   - component: {fileID: 1211903667}
   - component: {fileID: 1211903666}
+  - component: {fileID: 1211903669}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -1467,12 +1482,26 @@ Transform:
   m_GameObject: {fileID: 1211903665}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 14, z: 0}
+  m_LocalPosition: {x: 0, y: 14.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1211903669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211903665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b591245cf10663a448ec95cc8d31ad2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 1211903667}
+  action: {fileID: -929178305433111938, guid: a68e1fb762d88734d9b6d576a6f03c6b, type: 3}
 --- !u!1 &1218404671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,7 +1993,7 @@ Transform:
   m_GameObject: {fileID: 1306407834}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.14, y: -2.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
