@@ -76,7 +76,6 @@ PlayerSettings:
   androidMinimumWindowWidth: 400
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
-  androidAutoRotationBehavior: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
@@ -167,7 +166,7 @@ PlayerSettings:
     VisionOS: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
+  overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 29
   AndroidTargetSdkVersion: 0
@@ -912,10 +911,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 04c4581b-a805-4ac5-b434-2aef0866d491
+  cloudProjectId: e91f5d6a-a8e2-46e8-a424-31aa77fafe25
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Homework 1
+  projectName: My project 2024-01-25_12-49-32
   organizationId: manexsora
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
