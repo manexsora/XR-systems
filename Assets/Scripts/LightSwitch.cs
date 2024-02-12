@@ -3,15 +3,15 @@ using UnityEngine.InputSystem;
 
 public class LightSwitch : MonoBehaviour
 {
-    public Light light;
+    public Light roofLight;
     public InputActionReference action;
     void Start()
     {
-        light = GetComponent<Light>();
+        roofLight = GetComponent<Light>();
         action.action.Enable();
         action.action.performed += (ctx) =>
         {
-            light.color = Color.blue;
+            roofLight.color = Color.blue;
         };
     }
 }
